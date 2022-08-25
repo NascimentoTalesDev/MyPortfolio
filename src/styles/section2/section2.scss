@@ -1,0 +1,83 @@
+@import "../colors/colors.scss";
+
+.section-2{
+    width: 100%;
+    height: 100%;
+    padding: 15rem;
+    background-color: $backGrounColorSection2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .section-2-heading{
+        font-size: 5rem;
+        color: $textColorSection2;
+        text-transform: uppercase;
+        left: 0.5rem;
+        margin-bottom: 15rem;
+        border-bottom: 0.3rem solid $textColorSection2;
+        text-shadow: .2rem .2rem .5rem $textShaddow;
+    }
+    .progress-bars-wrapper{
+        margin-bottom: 10rem;
+       
+        .progress-bar{
+            width: 60rem;
+            height: 3rem;
+            background-color: $backGrounColorProgressBar;
+            margin: 1.5rem 0;
+            border-radius: 0.3rem;
+            box-shadow: 0.2rem 0.2rem 1rem $textShaddow;
+            position: relative;
+
+            .progress-text{
+                position: absolute;
+                font-size: 1.5rem;
+                left: 1rem;
+                color: $backGrounColorSection2;
+                span{
+                    margin: 0 .5rem;
+                    font-size: 1.8rem;
+                    font-weight: 700;
+                   
+                }
+            }
+            .progress-porcent{
+                width: 90%;
+                height: 100%;
+                background-color: $backGrounColorH1;
+                border-radius: 0.3rem;
+            }
+        }
+    }
+    .services{
+        width: 100%;
+        height: 30vh;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+
+        .service{
+            text-align: center;
+
+            i{
+                font-size: 10rem;
+                color: $colorIcon;
+                margin-bottom: 2rem;
+                text-shadow: .1rem .1rem .5rem #555 ;
+            }
+            h2{
+                font-size: 2rem;
+                color: $backGrounColorSection2;
+                background-color: $backGrounColorService;
+                letter-spacing: 0.3rem;
+                width: 25rem;
+                transform: skew(-10deg);
+            }
+        }
+        .service:first-child,
+        .service:last-child{
+            align-self: flex-start;
+            // background-color: red;//Mexe no primeiro e no último elemento
+        }
+    }
+}
