@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+  font-family: "jost", sans-serif;
+  font-weight: 400;
+  list-style-type: none;
+}
+
+html {
+  font-size: 62.5%;
+}/*# sourceMappingURL=commomsettings.css.map */

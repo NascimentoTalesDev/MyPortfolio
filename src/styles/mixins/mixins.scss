@@ -1,0 +1,9 @@
+// Section 1
+@mixin BackGroudImage {
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.2),
+        rgba(255, 255, 255, 0.3)),
+        url("../../assets/images/bg.jpg") center no-repeat;
+    background-size: cover;
+}
+// End Of Section 1
