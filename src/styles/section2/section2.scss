@@ -1,4 +1,5 @@
 @import "../colors/colors.scss";
+@import "../mixins/mixins.scss";
 
 .section-2{
     width: 100%;
@@ -9,13 +10,7 @@
     flex-direction: column;
     align-items: center;
     .section-2-heading{
-        font-size: 5rem;
-        color: $textColorSection2;
-        text-transform: uppercase;
-        left: 0.5rem;
-        margin-bottom: 15rem;
-        border-bottom: 0.3rem solid $textColorSection2;
-        text-shadow: .2rem .2rem .5rem $textShaddow;
+        @include configH1;
     }
     .progress-bars-wrapper{
         margin-bottom: 10rem;

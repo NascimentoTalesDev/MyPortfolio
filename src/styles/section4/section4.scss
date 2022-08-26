@@ -1,0 +1,43 @@
+@import "../colors/colors.scss";
+@import "../mixins/mixins.scss";
+
+.section-4{
+    background-color: $backGrounColorSection4;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    .section-4-heading{
+        @include configH1;
+        color: $textColorSection4;
+        box-shadow: none;
+    }
+    .contact-form{
+        width: 50rem;
+        flex-direction: column;
+        input, textarea{
+            width: 100%;
+            padding: 0.5rem;
+            margin: 0.5rem 0;
+            background-color: $backGrounColorInput;
+            font-size: 1.5rem;
+            color: $textColorInput;
+            border: 0.2rem solid $backGrounColorH1;
+
+        }
+        textarea{
+            height: 10rem;
+            max-height: 15rem;
+            max-width: 100%;
+        }
+        .contact-form-btn{
+            background-color: $backGrounColorH1;
+            color: $textColorSection4;
+            letter-spacing: 1rem;
+            text-transform: uppercase;
+            cursor: pointer;
+        }
+    }
+}

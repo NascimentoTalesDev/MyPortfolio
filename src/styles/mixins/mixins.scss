@@ -6,4 +6,14 @@
         url("../../assets/images/bg.jpg") center no-repeat;
     background-size: cover;
 }
+
+@mixin configH1 {
+    font-size: 5rem;
+    color: $textColorSection2;
+    text-transform: uppercase;
+    left: 0.5rem;
+    margin-bottom: 15rem;
+    border-bottom: 0.3rem solid $textColorSection2;
+    text-shadow: .2rem .2rem .5rem $textShaddow;
+}
 // End Of Section 1

@@ -1,0 +1,45 @@
+.section-4 {
+  background-color: #333;
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.section-4 .section-4-heading {
+  font-size: 5rem;
+  color: #333;
+  text-transform: uppercase;
+  left: 0.5rem;
+  margin-bottom: 15rem;
+  border-bottom: 0.3rem solid #333;
+  text-shadow: 0.2rem 0.2rem 0.5rem #555;
+  color: #fff;
+  box-shadow: none;
+}
+.section-4 .contact-form {
+  width: 50rem;
+  flex-direction: column;
+}
+.section-4 .contact-form input, .section-4 .contact-form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  background-color: #eef;
+  font-size: 1.5rem;
+  color: #555;
+  border: 0.2rem solid #e41c6f;
+}
+.section-4 .contact-form textarea {
+  height: 10rem;
+  max-height: 15rem;
+  max-width: 100%;
+}
+.section-4 .contact-form .contact-form-btn {
+  background-color: #e41c6f;
+  color: #fff;
+  letter-spacing: 1rem;
+  text-transform: uppercase;
+  cursor: pointer;
+}/*# sourceMappingURL=section4.css.map */
