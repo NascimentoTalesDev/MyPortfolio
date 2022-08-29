@@ -5,6 +5,9 @@
     height: 4rem;
     box-shadow: 0.2rem 0.2rem 0.5rem #555;
     background-color: $backGrounColorH1;
+    position: absolute;
+    z-index: 1000;
+
     .navbar-link{
         font-size: 1.7rem;
         font-weight: 600;
@@ -32,3 +35,14 @@
         width: 130%;
     }
 }
+.sticky{
+    position: fixed;
+    top: 0;
+}
+.change.navbar-link{    
+    color: #fff;
+} 
+.change.navbar-link::before{
+    width: 130%;
+}
+

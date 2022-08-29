@@ -3,6 +3,8 @@
   height: 4rem;
   box-shadow: 0.2rem 0.2rem 0.5rem #555;
   background-color: #e41c6f;
+  position: absolute;
+  z-index: 1000;
 }
 .navbar .navbar-link {
   font-size: 1.7rem;
@@ -28,5 +30,18 @@
   transition: width 0.2s;
 }
 .navbar .navbar-link:hover:before {
+  width: 130%;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+}
+
+.change.navbar-link {
+  color: #fff;
+}
+
+.change.navbar-link::before {
   width: 130%;
 }/*# sourceMappingURL=navbar.css.map */
