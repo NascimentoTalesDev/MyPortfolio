@@ -37,10 +37,11 @@
                 }
             }
             .progress-porcent{
-                width: 90%;
+                width: 0;
                 height: 100%;
                 background-color: $backGrounColorH1;
                 border-radius: 0.3rem;
+                transition: width 0.5s 0.5s ease-in;
             }
         }
     }
