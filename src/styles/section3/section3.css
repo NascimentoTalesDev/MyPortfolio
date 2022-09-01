@@ -31,6 +31,8 @@
   position: relative;
   overflow: hidden;
   transition: box-shadow 0.5s;
+  height: 250px;
+  width: 40rem;
 }
 .section-3 .projects-wrapper .project .project-text {
   text-align: center;

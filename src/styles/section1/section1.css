@@ -10,7 +10,9 @@
   font-weight: 700;
   background-color: #e41c6f;
   padding: 0 3rem;
+  width: 75%;
   margin-bottom: 5rem;
+  text-align: center;
   text-transform: uppercase;
   letter-spacing: 1rem;
   color: #fff;

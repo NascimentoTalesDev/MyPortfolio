@@ -15,10 +15,12 @@
         box-shadow: none;
         border-color: $textColorSection4;
         margin-bottom: 5rem;
+        margin-top: 5rem;
     }
     .contact-form{
         width: 50rem;
         flex-direction: column;
+        margin-bottom: 5rem;
         input, .textarea{
             width: 100%;
             padding: 0.5rem;

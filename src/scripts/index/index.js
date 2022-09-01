@@ -15,7 +15,7 @@ window.addEventListener('scroll', () => {
 
 const mainFn = () => {
 
-    if(window.scrollY >= navbarOfsetTop ){
+    if(window.scrollY >= navbarOfsetTop){
         navbar.classList.add('sticky')
     }else{
         navbar.classList.remove('sticky')

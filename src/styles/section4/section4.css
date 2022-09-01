@@ -19,10 +19,12 @@
   box-shadow: none;
   border-color: #fff;
   margin-bottom: 5rem;
+  margin-top: 5rem;
 }
 .section-4 .contact-form {
   width: 50rem;
   flex-direction: column;
+  margin-bottom: 5rem;
 }
 .section-4 .contact-form input, .section-4 .contact-form .textarea {
   width: 100%;
