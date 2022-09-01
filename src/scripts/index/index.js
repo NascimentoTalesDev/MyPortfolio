@@ -23,7 +23,7 @@ const mainFn = () => {
 
     sections.forEach( (section, i) => {
     
-        if (window.scrollY >= section.offsetTop - 10) {
+        if (window.scrollY >= section.offsetTop - 500) {
     
             navbarLinks.forEach(navbarlink => {
                 navbarlink.classList.remove('change')
@@ -47,6 +47,6 @@ const mainFn = () => {
 mainFn()
 
 window.addEventListener('resize', () => {
-    // window.location.reload();
+    window.location.reload();
 })
 
